@@ -1,0 +1,179 @@
+body{
+    position: relative;
+}
+.custom-navbar{
+    background-color: #1F2667;  
+}
+
+.custom-link{
+    color: #FFFFFF;
+}
+
+.custom-link:hover{
+    color: #1EB198;
+}
+
+.custom-link:focus{
+    background-color: #1EB198;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.custom-link:active{
+    background-color: #1EB198;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.main-header{
+    background-color: #010856;
+    /* background-color: aqua; */
+    min-height: 100vh;
+}
+
+.profile-avatar{
+    width: 15rem;
+    border: 12px solid #1EB198;
+    border-radius: 50%;
+    transition: all 0.5s;
+    /* box-shadow: 0 0 5rem rgba(0, 0, 0, .5);  */
+}
+
+#profileName{
+    color: #FFFFFF;
+    background-color: #1EB198;
+
+}
+
+.heading-padding{
+    height: 50px;
+}
+
+#about{
+    min-height: 100vh;
+}
+
+#aboutHeading{
+    color: #FFFFFF;
+    background-color: #1EB198;
+}
+
+.about-content{
+    width: 90%;
+}
+.about-description{
+    color: #1EB198;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#projects{
+    min-height: 100vh;
+    background-color: #010856;
+}
+
+#projectsHeading{
+    color: #FFFFFF;
+    background-color: #1EB198;
+}
+
+#primalityTest, #tasksToDo{
+    color: #1EB198;
+    background-color: #FFFFFF;
+    transition: all 0.5s;
+    width: 90%
+}   
+
+#primalityTest:hover{
+    cursor: pointer;
+    transform: translateY(-10px); 
+}
+
+#tasksToDo:hover{
+    cursor: pointer;
+    transform: translateY(-10px); 
+}
+
+#contact{
+    min-height: 100vh;
+}
+
+#contactHeading{
+    color: #FFFFFF;
+    background-color: #1EB198;
+}
+
+#githubIcon{
+    width: 13rem;
+}
+
+#linkedInIcon{
+    width: 13rem;
+    height: 15.7rem;
+    color: #007FBC;
+}
+
+#gmailIcon{
+    color: #E65A4D;
+    width: 14rem;
+    height: 15.7rem;
+}
+
+#mailAddress{
+    color: #FFFFFF;
+    background-color: #1EB198; 
+    text-align: center;
+}
+
+
+.contact-links{
+    color: #FFFFFF;
+    background-color: #1EB198;
+    text-decoration: none;
+    transition: 0.5s
+}
+
+.contact-links:hover{
+    background-color: #FFFFFF;
+    color: #1EB198;
+}
+
+.footer{
+    background-color: #1F2667;
+    color: #FFFFFF;
+}
+
+
+@media (min-width: 576px) { 
+    #primalityTest, #tasksToDo{
+        width: 70%
+    }
+    .profile-avatar{
+        width: 18rem;
+    }
+    #primalityTest:hover{
+        transform: translateX(20px); 
+    }
+    
+    #tasksToDo:hover{
+        transform: translateX(20px); 
+    }
+}
+
+@media (min-width: 768px) { 
+    .about-content{
+        width: 70%;
+    }
+    #primalityTest, #tasksToDo{
+        width: 50%
+    }
+}
+
+@media (min-width: 992px) { 
+    .about-content{
+        width: 50%;
+    }
+ }
