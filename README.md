@@ -1,2 +1,2 @@
 # Portfolio
-A simple portfolio website usng HTML, CSS, Bootstrap and JavaScript
+A simple portfolio website using HTML, CSS, Bootstrap and JavaScript
