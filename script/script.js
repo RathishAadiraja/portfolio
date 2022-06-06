@@ -34,7 +34,7 @@ githubBtn.addEventListener("click", ()=>{
 const linkedinBtn = document.getElementById("linkedin-btn");
 
 linkedinBtn.addEventListener("click", ()=>{
-    window.open("https://www.linkedin.com/in/rathish-aadiraja-madhana-gopalapuram-ramesh/");
+    window.open("https://www.linkedin.com/in/rathish-aadiraja/");
 });
 
 const tasksToDo = document.getElementById("tasksToDo")
